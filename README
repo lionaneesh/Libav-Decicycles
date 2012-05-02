@@ -1,9 +1,7 @@
 Libav-Decicycles
 ================
 
-Libav-Decicycles is a bash script written for the libav (http://libav.org/) developers
-which inputs a command (giving out decicycles), runs it 'count' number of times, parses
-the values, adds them up and gives out an average. 
+Libav-Decicycles is a bash script written for the libav (http://libav.org/) developers which inputs a command (giving out decicycles), runs it 'count' number of times, parses the values, adds them up and gives out an average. 
 
 'n' can be increased upto a finite limit to increase the accuracy.
 Note: You need to add START_TIMER/STOP_TIMER around the code you are testing.
@@ -11,8 +9,7 @@ Note: You need to add START_TIMER/STOP_TIMER around the code you are testing.
 Example
 =======
 
-Aneesh-MBP:libav aneeshdogra$ bash time.sh ./avconv -cpuflags sse2 -i /Users/aneeshdogra/Movies/FATE/lossless-audio/inside.tta -f crc -
-
+>> bash time.sh ./avconv -cpuflags sse2 -i /Users/aneeshdogra/Movies/FATE/lossless-audio/inside.tta -f crc -
 Average Decicycles : 434452
 
 Author
